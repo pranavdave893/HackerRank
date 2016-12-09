@@ -12,5 +12,5 @@ O/p
 
 from __future__ import division
 plant=int(raw_input())
-height=map(int,raw_input().split())
-print sum(set(height))/len(set(height))
+height=set(map(int,raw_input().split()))
+print sum(height)/len(height)

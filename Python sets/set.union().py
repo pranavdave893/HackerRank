@@ -29,3 +29,9 @@ y = int(raw_input())
 fre = set(raw_input().split())
 print len(eng.union(fre))
 
+"""
+Another solution 
+
+"""
+_,a,_,b=eval("set(raw_input().split()),"*4);print len(a.union(b))
+

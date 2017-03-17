@@ -3,6 +3,7 @@ Input Format
 
 The first line of input contains the original string. The next line contains the substring.
 
+Testing things
 Output Format
 
 Output the integer number indicating the total number of occurrences of the substring in the original string.
